@@ -70,7 +70,7 @@ body {
 
 /* Cambio de color al pasar el mouse sobre los enlaces */
 .menu .navbar ul li a:hover {
-    color: #2bca7a; /* Cambia el color al verde cuando se pasa el mouse */
+    color:   #80c4f2  ; /* Cambia el color al verde cuando se pasa el mouse */
 }
 
 /* Oculta el checkbox de menú (para menú responsivo) */
