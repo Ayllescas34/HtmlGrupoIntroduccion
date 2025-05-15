@@ -1,0 +1,126 @@
+/* Importa la fuente 'Poppins' desde Google Fonts con distintos pesos (400 al 800) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Aplica estilos base a todos los elementos */
+*{
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
+    box-sizing: border-box; /* Incluye padding y border dentro del ancho y alto del elemento */
+    text-decoration: none; /* Elimina subrayados de enlaces */
+    list-style: none; /* Elimina viñetas y números de listas */
+}
+
+/* Estilo general del cuerpo del documento */
+body {
+    font-family: 'Poppins', sans-serif; /* Usa la fuente Poppins, y sans-serif como respaldo */
+}
+
+/* Clase contenedora principal */
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+}
+
+/* Encabezado principal con imagen de fondo y efecto de degradado */
+.header {
+    background-image: linear-gradient(
+        rgba(82, 78, 78, 0.7), /* Degradado oscuro semi-transparente arriba */
+        rgba(76, 72, 72, 0.7)), /* Degradado oscuro semi-transparente abajo */
+        url(/attachments/logica1.jpg); /* Imagen de fondo */
+    background-position: center bottom; /* Posiciona la imagen al centro inferior */
+    background-repeat: no-repeat; /* No repite la imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    min-height: 70vh; /* Altura mínima del header: 70% de la ventana */
+    display: flex; /* Usa modelo de caja flexible */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+/* Menú de navegación fijo en la parte superior */
+.menu {
+    position: absolute; /* Posicionamiento absoluto respecto al contenedor padre */
+    top: 0; /* Lo sitúa en la parte superior */
+    left: 0; /* Al borde izquierdo */
+    right: 0; /* Al borde derecho */
+    display: flex; /* Flexbox para distribuir elementos */
+    align-items: center; /* Alineación vertical */
+    justify-content: space-between; /* Espacio entre los elementos (logo y navegación) */
+}
+
+/* Estilo del logo */
+.logo {
+    color: #fdfcff; /* Color blanco */
+    font-size: 25px; /* Tamaño de fuente */
+    font-weight: 800; /* Grosor de fuente muy negrita */
+}
+
+/* Estilo para los ítems de la lista de navegación */
+.menu .navbar ul li {
+    position: relative; /* Permite posicionar hijos relativos a este */
+    float: left; /* Alinea los elementos a la izquierda en horizontal */
+}
+
+/* Estilo de los enlaces del menú */
+.menu .navbar ul li a {
+    font-size: 18px; /* Tamaño de fuente */
+    padding: 20px; /* Espaciado interior */
+    color: #fefcff; /* Color blanco */
+    display: block; /* Hace que ocupe todo el espacio disponible */
+    font-weight: 600; /* Peso de fuente medio */
+}
+
+/* Cambio de color al pasar el mouse sobre los enlaces */
+.menu .navbar ul li a:hover {
+    color: #2bca7a; /* Cambia el color al verde cuando se pasa el mouse */
+}
+
+/* Oculta el checkbox de menú (para menú responsivo) */
+#menu {
+    display: none; /* No se muestra en pantalla */
+}
+
+/* Icono del menú (hamburguesa) */
+.menu-icono {
+    width: 25px; /* Tamaño del ícono */
+}
+
+/* Estilo para el label que controla el menú móvil */
+.menu label {
+    cursor: pointer; /* Cambia el cursor a mano al pasar el mouse */
+    display: none; /* Oculta este elemento por defecto */
+}
+
+/* Contenedor del contenido del encabezado */
+.header-content {
+    text-align: center; /* Centra el texto */
+}
+
+/* Título principal en el header */
+.header-content h1 {
+    font-size: 75px; /* Tamaño grande de fuente */
+    line-height: 80px; /* Altura de línea */
+    color: white; /* Color del texto */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    margin-bottom: 35px; /* Espaciado inferior */
+}
+
+/* Párrafo en el header */
+.header-content p {
+    font-size: 16px; /* Tamaño de fuente */
+    color: white; /* Color blanco */
+    padding: 0 250px; /* Espaciado lateral */
+    margin-bottom: 25px; /* Espaciado inferior */
+}
+
+/* Botón de estilo principal */
+.btn-1 {
+    display: inline-block; /* Permite usar padding y margen sin ocupar toda la línea */
+    padding: 11px 35px; /* Espaciado interno vertical y horizontal */
+    background-color: #6aa4dc; /* Color de fondo azul */
+    color: #F9FAFC; /* Color del texto */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+}
+
+/* Estilo del botón al pasar el mouse */
+.btn-1:hover {
+    background-color: #557dc3; /* Cambia a un tono más oscuro de azul */
+}
