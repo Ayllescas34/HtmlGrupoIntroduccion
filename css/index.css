@@ -124,3 +124,55 @@ body {
 .btn-1:hover {
     background-color: #557dc3; /* Cambia a un tono más oscuro de azul */
 }
+
+.temas {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.temas-content {
+    text-align: center;
+}
+
+.temas-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.temas-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.temas-1 {
+    padding: 0 25px;
+}
+
+.temas-1 img {
+    width: 200px;
+}
+
+.temas-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.temas-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
