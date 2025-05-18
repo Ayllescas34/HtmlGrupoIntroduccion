@@ -48,9 +48,8 @@ body {
 
 /* Estilo del logo */
 .logo {
-    color: #fdfcff; /* Color blanco */
-    font-size: 25px; /* Tamaño de fuente */
-    font-weight: 800; /* Grosor de fuente muy negrita */
+    width: 120px; /* o el tamaño que desees */
+    height: auto;
 }
 
 /* Estilo para los ítems de la lista de navegación */
@@ -176,3 +175,56 @@ body {
     font-size: 20px;
     margin-bottom: 15px;
 }
+
+.tareas {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(/attachments/logica2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+
+.tareas-content {
+    text-align: center;
+}
+
+.tareas-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.tareas-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.tareas-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.tareas-1 {
+    padding: 0 100px;
+}
+
+.tareas-1 img{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.tareas-1 h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+
