@@ -266,7 +266,6 @@ body {
     background-size: cover;
     width: 50%;
 }
-    
 .general-3 {
     background-image: url(/attachments/silogismo.jpg);
     background-position: center center;
@@ -301,7 +300,13 @@ p {
     color: #414247;
     margin: 25px 0 45px 0;
 }
+
 .general-7 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+.general-8 {
     background-image: url(/attachments/mapa.jpg);
     background-position: center center;
     background-repeat: no-repeat;
