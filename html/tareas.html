@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tareas</title>
+    <link rel="stylesheet" href="/css/tareas.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+                <video autoplay muted loop class="video-fondo">
+            <source src="/attachments/umgVideo.mp4" type="video/mp4">
+            Tu navegador no soporta videos en HTML5.
+        </video>
+        
+        <div class="menu container">
+
+            <a href="#">
+                <img src="/attachments/logoUmg.png" alt="Logo" class="logo" />
+            </a> 
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/html/index.html">Inicio</a></li>
+                    <li><a href="#">Información</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <h1>Tareas</h1>
+            <p>
+                El curso de Lógica en Sistemas tiene tareas atractivas para aprender el funcionamiento del pensamiento lógico en el mundo de la informática.
+            </p>
+            <a href="#silogismos" class="btn-1" id="btn-leer-mas">Leer más...</a>
+        </div>
+    </header>
+
+    <main id="contenido-principal">
+        <section id="silogismos" class="general">
+            <div class="general-1">
+                <h2>Silogismos</h2>
+                <p>
+                    Se realizó una tarea donde se pedía comprender unas proposiciones junto a su conclusión, lo que ayudó a entender cómo funcionaban los silogismos de manera práctica.
+                </p>
+            </div>
+            <div class="tareas-1-img"></div>
+        </section>
+
+        <section class="general">
+            <div class="tareas-2-img"></div>
+            <div class="general-1">
+                <h2>Circuitos lógicos</h2>
+                <p>
+                    Se resolvieron circuitos lógicos utilizando "AND", "OR" y "NOT", para comprender visualmente el uso de proposiciones.
+                </p>
+            </div>
+        </section>
+
+        <section class="general">
+            <div class="general-1">
+                <h2>Tablas de verdad</h2>
+                <p>
+                    Se construyeron tablas de verdad para analizar combinaciones de valores con los operadores lógicos "AND", "OR" y "NOT".
+                </p>
+            </div>
+            <div class="tareas-3-img"></div>
+        </section>
+        
+        <footer class="footer">
+            <div class="footer-container">
+                <h3>Lógica de Sistemas</h3>
+                <p>© 2025 Universidad Mariano Gálvez. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Términos</a>
+                    <a href="#">Privacidad</a>
+                    <a href="#">Contacto</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const btn = document.getElementById('btn-leer-mas');
+            const contenido = document.getElementById('contenido-principal');
+            contenido.style.display = 'none';
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                contenido.style.display = 'block';
+                contenido.scrollIntoView({ behavior: 'smooth' });
+                btn.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
