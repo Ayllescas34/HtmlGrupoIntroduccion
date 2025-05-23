@@ -2,28 +2,172 @@
 <html>
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Principal</title>
-    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/temas.css">
 </head>
 <body>
     <header class="header">
-        <div class="menu-navbar">
-            <a href="#" class="logo">Logo</a>
+
+        <video autoplay muted loop class="video-fondo">
+            <source src="/attachments/umgVideo.mp4" type="video/mp4">
+            Tu navegador no soporta videos en HTML5.
+        </video>
+        
+
+        <div class="menu container">
+            <a href="#">
+                <img src="/attachments/logoUmg.png" alt="Logo" class="logo" />
+            </a>
             <input type="checkbox" id="menu"/>
             <label for="menu">
-                <img src="ruta-imagen-principal" class="menu-icono" alt="">
+                <img src="/attachments/logoUmg.png" class="menu-icono" alt="">
             </label>
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Información</a></li>
                 </ul>
             </nav>
         </div>
+        <div class="header-content container">
 
-        
-    </header>
+            <h1>Lógica de Sistemas</h1>
+            <p>
+                En este apartado veremos todos los temas que se han visto 
+                durante el semestre de la mataria de Logica de Sistemas en el
+                Primer semestre de Ingenieria en Sistemas seccion "A".
+            </p>
+           <br><br><br><br> <a href="#seccion1" class="btn-1">Ver más</a>
+        </div>
+    </header >
+
+
+    <section class="general"id="seccion1">
+   <div class="general-3">
+  <img src="/attachments/LogicaForamal.jpeg" class="imagen-cuadro">
+</div>
+
+    <div class="general-8">
+        <h2>Lógica Formal</h2>
+        <p>
+            La lógica formal es una rama de la lógica que estudia las formas válidas del razonamiento, es decir, cómo se estructura un argumento correcto, sin importar el contenido específico.<br><br>
+
+            Se basa en símbolos, reglas y estructuras fijas para evaluar si un razonamiento es válido.<br><br>
+
+            <strong>Ejemplo básico:</strong><br>
+            Premisa 1: Todos los humanos son mortales.<br>
+            Premisa 2: Sócrates es humano.<br>
+            Conclusión: Sócrates es mortal.<br><br>
+
+            <strong>¿Qué es una Inferencia?</strong><br>
+            Una inferencia es el proceso de obtener una conclusión a partir de una o más premisas.
+            En lógica formal, si las premisas son verdaderas y se sigue la forma correcta, la conclusión también será verdadera.
+        </p>
+    </div>
+</section>
+
+  
+</section>
+
+<section class="general">
+
+<div class="general-5">
+<h2>Silogismos</h2>
+<p>
+    Es un tipo de argumento deductivo que consta de dos premisas y 
+    una conclusión, donde la conclusión se deduce lógicamente de las premisas. 
+    Es una forma común de organizar razonamientos y 
+    se utiliza en lógica y filosofía. <br>
+<strong> Silogismo categórico:</strong> Se basa en afirmaciones o negaciones absolutas. <br>
+<strong> Silogismo hipotético:</strong>  Contiene una premisa condicional (si... entonces...). <br>
+<strong> Silogismo disyuntivo:</strong> Presenta opciones y excluye una de ellas. <br>
+
+</p>
+
+</div>
+
+</section>
+    </section>
+
+ <!-- Lógica Proposicional -->
+<section class="general">
+    <div class="general-3">
+        <img src="/attachments/Tablas.jpg" class="imagen-cuadro" alt="Lógica Proposicional">
+    </div>
+    <div class="general-8">
+        <h2>Logica Proposicional</h2>
+        <p>
+            La lógica proposicional es una rama de la lógica que estudia las 
+            proposiciones y sus relaciones mediante conectores lógicos como 
+            "y", "o", "no", "si... entonces". Se enfoca en el valor de 
+            verdad de las proposiciones, sin analizar su contenido interno. 
+            Es fundamental en matemáticas y computación, ya que permite 
+            estructurar razonamientos de manera clara y precisa. <br>
+            <strong>Tablas de verdad:</strong> <br>
+            Las tablas de verdad son herramientas fundamentales en la 
+            lógica proposicional que muestran todos los posibles valores 
+            de verdad de una expresión lógica. Se utilizan para analizar el comportamiento de conectores lógicos como "y" (∧), "o" (∨), "no" (¬), "si... entonces" (→), entre otros.
+Cada fila de la tabla representa una combinación posible de valores de verdad
+ para las proposiciones involucradas, permitiendo determinar cuándo una expresión
+  es verdadera o falsa. Son esenciales en matemáticas, informática y filosofía para
+   evaluar argumentos y diseñar circuitos lógicos.
+
+        </p>
+    </div>
+</section>
+
+<!-- Circuitos Logicos -->
+<section class="general">
+    <div class="general-5">
+        <h2>Circuitos Logicos</h2>
+        <p>
+          Los circuitos lógicos son sistemas electrónicos que procesan información utilizando principios de la lógica proposicional. Funcionan con señales binarias (0 y 1) y están presentes en computadoras, calculadoras y otros dispositivos digitales.
+Se dividen en dos tipos principales: <br>
+<strong>Circuitos lógicos combinacionales:</strong> Su salida depende únicamente de las entradas actuales. Ejemplos incluyen puertas lógicas (AND, OR, NOT, NAND, NOR, XOR), multiplexores y decodificadores. <br>
+<strong>Circuitos lógicos secuenciales:</strong> Su salida depende de las entradas actuales y del estado anterior, ya que incluyen elementos de memoria.
+
+
+        </p>
+    </div>
+    <div class="general-6">
+        <img src="/attachments/circuitosLogicos.png" class="imagen-cuadro" alt="Tablas de Verdad">
+    </div>
+</section>
+
+<!-- UML -->
+<section class="general">
+    <div class="general-7">
+        <img src="/attachments/UML.png" class="imagen-cuadro" alt="Simplificación de Circuitos">
+    </div>
+    <div class="general-8">
+        <h2>UML</h2>
+        <p>
+         El Lenguaje Unificado de Modelado (UML) es un estándar gráfico utilizado para visualizar, especificar, construir y documentar sistemas de software. Se basa en diagramas que representan la estructura y el comportamiento de un sistema, facilitando su diseño y comunicación entre desarrolladores.
+Algunos de los diagramas más comunes en UML incluyen:
+ <strong>Diagramas de clases:</strong> Representan la estructura de un sistema y sus relaciones. <br>
+ <strong>Diagramas de casos de uso:</strong> Muestran cómo los usuarios interactúan con el sistema. <br>
+ <strong>Diagramas de secuencia:</strong> Describen el flujo de mensajes entre objetos. <br>
+ <strong>Diagramas de actividad:</strong> Representan procesos y flujos de trabajo. <br>
+UML es ampliamente utilizado en el desarrollo de software y en la ingeniería de sistemas. Si quieres profundizar más, puedes revisar esta fuente o esta otra. ¡Espero que te ayude! 😊
+
+        </p>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <h3>Lógica de Sistemas</h3>
+            <p>© 2025 Universidad Mariano Gálvez. Todos los derechos reservados.</p>
+
+            <div class="footer-links">
+                <a href="#">Términos</a>
+                <a href="#">Privacidad</a>
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 </html>
